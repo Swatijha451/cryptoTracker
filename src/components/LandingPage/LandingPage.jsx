@@ -46,7 +46,7 @@ const LandingPage = () => {
           <RWebShare
             data={{
               text: "CryptoDashboard made by Swati Jha using React JS.",
-            //   url: "https://crypto-dashboard-jan.netlify.app",
+              url: "https://real-time-cryptocurrency-tracker.netlify.app/",
               title: "CryptoTracker.",
             }}
             onClick={() => toast.info("App Shared!")}
