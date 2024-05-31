@@ -3,6 +3,7 @@ import Button from "../components/Common/Button/Button";
 import Header from "../components/Common/Header/Header";
 import TabsComponent from "../components/Dashboard/Tabs/Tabs";
 import { get100Coins } from "../functions/get100Coins";
+import { Link } from "react-router-dom";
 
 function Watchlist() {
   const watchlist = JSON.parse(localStorage.getItem("watchlist"));
