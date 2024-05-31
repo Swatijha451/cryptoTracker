@@ -6,6 +6,7 @@ import gradient from '../../assets/gradient.png';
 import { motion } from 'framer-motion';
 import { RWebShare } from "react-web-share";
 import { toast } from "react-toastify";
+import { Link } from 'react-router-dom';
 
 
 const LandingPage = () => {
@@ -39,9 +40,9 @@ const LandingPage = () => {
 					initial={{ opacity: 0, x: 50 }}
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.5, delay: 1.5 }}>
-						<a href="/dashboard">
-            <Button text={"Dashboard"} />
-          </a>
+						<Link to="/dashboard">
+                          <Button text={"Dashboard"} />
+                           </Link>
           <RWebShare
             data={{
               text: "CryptoDashboard made by Swati Jha using React JS.",
