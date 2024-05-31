@@ -39,9 +39,10 @@ function Watchlist() {
               margin: "2rem",
             }}
           >
-            <Link to ="/dashboard">
-              <Button text="Dashboard" />
-            </Link>
+            <Link to="/dashboard">
+                      <Button text={"dashboard"}
+                      />
+                 </Link>
           </div>
         </div>  
       )}
