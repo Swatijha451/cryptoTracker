@@ -1,0 +1,17 @@
+.selectCoinDiv {
+    display: flex;
+      /* flex-direction: column;  */
+    justify-content: space-around;
+     align-items: center; 
+    gap: 2rem;
+    margin: 1.5rem 6rem;
+    flex-wrap: wrap;
+  }
+  
+  .selectFlex {
+    display: flex;
+    /* flex-direction: column; */
+     justify-content: flex-start; 
+    align-items: center;
+    gap: 1rem;
+  }

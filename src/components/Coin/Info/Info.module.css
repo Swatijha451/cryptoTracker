@@ -1,0 +1,24 @@
+.infoComponent h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  
+  .infoP a {
+    text-decoration: underline;
+  }
+
+  
+ .infoP a:hover {
+    color: rgba(0, 174, 255, 0.829) !important;
+    transition: all 0.3s;
+  } 
+  /* .greyWrapper {
+    background-color: var(--darkgrey);
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    width: 90%;
+    display: block;
+    margin: 1.5rem auto;
+  } */

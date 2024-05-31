@@ -1,0 +1,222 @@
+/* .mainFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 3rem;
+  }
+  
+  .heading1,
+  .heading2 {
+    font-size: 6rem;
+    margin: 0;
+  }
+  
+  .heading1:hover {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+    color: var(--black);
+    transition: all 0.3s;
+  }
+  
+  .heading2 {
+    color: var(--blue);
+  }
+  
+  
+  
+  .btnFlex {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .gradientDiv {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  
+  
+  @media only screen and (max-width: 1350px) {
+    .heading1,
+    .heading2 {
+      font-size: 5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1050px) {
+    .heading1,
+    .heading2 {
+      font-size: 4rem;
+    }
+  
+    .gradient {
+      right: 0px;
+      top: 60px;
+      width: 200px;
+    }
+    .iphone {
+      right: 0px;
+      width: 250px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .heading1,
+    .heading2 {
+      font-size: 2rem;
+    }
+    .mainFlex {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .heading1,
+    .heading2,
+    .info-text {
+      text-align: center;
+    }
+  
+    .infoText {
+      font-size: 0.8rem;
+    }
+  
+    .btnFlex {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .gradientDiv {
+      margin-top: 3rem;
+      margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .gradient,
+    .iphone {
+      left: 0px;
+    }
+  
+    .iphone {
+      left: -30px;
+    }
+  } */
+
+ .flexInfo{
+    display: flex;
+    justify-content: space-between;
+     align-items: flex-start; 
+    padding: 0.5rem 3rem;
+  }
+  .trackCryptoHeading, 
+  .realTimeHeading{
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  .trackCryptoHeading{
+    
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+  }
+  .trackCryptoHeading:hover{
+    color: var(--black);
+    -webkit-text-stroke-color: var(--white);
+    transition: all 0.3s;
+  }
+  .realTimeHeading{
+    color: var(--blue);
+  }
+  .infoText {
+    color: var(--grey);
+    font-weight: 300;
+  }
+  .btnFlex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    
+  }
+  .leftComponent{
+    width: 50%;
+    position: relative;
+  } 
+  .phoneComponent{
+    width: 50%;
+    position: relative;
+    display: flex;
+    padding: 1rem;
+  }
+  .gradient {
+    position: absolute;
+      right: 3rem;  
+    top: 4.5rem;
+    min-width: 150px;
+    width: 33%;
+  }
+  .iphone {
+    position: absolute;
+     right: 3rem;  
+    min-width: 200px;
+    z-index: 100;
+    width: 40%;
+  }
+  
+  @media only screen and (max-width:1250px){
+    .trackCryptoHeading ,
+    .realTimeHeading{
+      font-size:4rem;
+      margin: 0;
+
+    }
+  }
+  @media only screen and (max-width:1000px){
+    .iphone{
+      min-width: 200px;
+      width: 40%; 
+    }
+    .gradient{
+      min-width: 170px;
+      top: 4rem;
+    }
+  }
+  @media only screen and (max-width:800px){
+    .flexInfo{  
+      flex-direction: column;  
+    }
+    .leftComponent{
+      display: block;
+      width: 100%;
+    }
+    .phoneComponent{ 
+      margin: auto;
+      margin-top: 3rem;
+    }
+      .gradient{
+       margin-left: auto;
+    }
+    .iphone{    
+       margin-left: auto; 
+    }  
+     
+    .trackCryptoHeading,
+    .realTimeHeading{
+      font-size: 3rem;
+      text-align: center;
+
+    }
+    .infoText{
+      text-align: center;
+    }
+    .trackCryptoHeading{
+      -webkit-text-stroke-width: 1px;
+    }
+    .btnFlex{
+      justify-content: center;
+    }
+  }

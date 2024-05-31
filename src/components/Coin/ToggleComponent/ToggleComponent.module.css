@@ -1,0 +1,13 @@
+.toggleDiv{
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+margin-Bottom: 1.5rem;
+
+}
+@media  only screen and (max-width:800px) {
+    .toggleBtn{
+        font-size: 0.7rem;
+        padding: 0.5rem !important;
+    }
+}
