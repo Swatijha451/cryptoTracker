@@ -12,6 +12,7 @@ import { getCoinData } from "../functions/getCoinData";
 import { getPrices } from "../functions/getPrices";
 import { settingChartData } from "../functions/settingChartData";
 import { settingCoinObject } from "../functions/settingCoinObject";
+import { Link } from "react-router-dom";
 
 function Coin() {
   const { id } = useParams();
@@ -96,9 +97,9 @@ function Coin() {
               margin: "2rem",
             }}
           >
-            <a href="/dashboard">
+            <Link to="/dashboard">
               <Button text="Dashboard" />
-            </a>
+            </Link>
           </div>
         </div>
       ) : (<Loader /> ) 
